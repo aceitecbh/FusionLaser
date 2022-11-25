@@ -1,0 +1,78 @@
+/* Toda la pagina */
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fdfff5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+html {
+    background-color: #fdfff5;
+}
+
+.vista-navbar {
+    background-color: #1c4766;
+    height: 5%;
+    flex: 0 1 auto;
+}
+
+
+/* Menu y vista */
+
+.main-container {
+    flex-grow: 1;
+    height: 95%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+
+/* menu */
+
+.menu-container {
+    height: 100%;
+    width: 300px;
+    background-color: #1c4766;
+}
+
+
+/* vista */
+
+.vista-container {
+    height: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+
+
+/* Footer */
+
+.vista-footer {
+    height: 5%;
+    background-color: #5584AC;
+}
+
+.form-inline {
+    display: inline-flex;
+}
+
+.centered {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+table.home-table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+th.home-table,
+td.home-table {
+    word-wrap: break-word;
+}

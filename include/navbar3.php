@@ -1,0 +1,70 @@
+
+    <nav class="vista-navbar navbar is-fixed-top is-dark" role="navigation">
+        <div class="navbar-brand pl-2">
+            <a class="navbar-item" href="index.php?vista=inicio">
+                <strong>Fusión Láser</strong>
+            </a>
+    
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="index.php?vista=inicio" class="navbar-item">
+                    Home
+                </a>
+
+                <a href="index.php?vista=catalogo" class="navbar-item">
+                    Catalogo
+                </a>
+
+                <a href="index.php?vista=buscador" class="navbar-item">
+                    Buscador
+                </a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Más
+                    </a>
+
+                    <div class="navbar-dropdown">
+                        <a href="index.php?vista=sobreNosotros" class="navbar-item">
+                            Quienes Somos
+                        </a>
+                        <a href="index.php?vista=contacto" class="navbar-item">
+                            Contacto
+                        </a>
+                    </div>
+                </div>
+                <!--
+                <div class="navbar-item">
+                    <form action="" method="POST" autocomplete="off" >
+                        <input type="hidden" name="modulo_buscador" value="producto">
+                        <div class="navbar-item field is-grouped">
+                            <p class="control is-expanded">
+                                <input class="input is-rounded" type="text" name="txt_buscador" placeholder="¿Qué estas buscando?" pattern="[a-zA-Z0-9áéíóúÁÉÍÓÚñÑ ]{1,30}" maxlength="30" >
+                            </p>
+                            <p class="navbar-item control">
+                                <a href="index.php?vista=buscador&busqueda=txt_buscador" class="button is-link is-rounded is-small">Buscar</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+                -->
+            </div>
+        </div>
+        
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <div class="buttons">
+                    <a class="button is-medium" href="index.php?vista=login">
+                        <img src="img/log-in.png"></img>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
